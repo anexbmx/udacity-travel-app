@@ -12,7 +12,7 @@ module.exports = {
     entry: './src/client/index.js',
     mode: 'production',
     optimization: {
-        minimizer: [ new TerserPlugin({}), new OptimizeCssAssets({})]
+        minimizer: [new TerserPlugin({}), new OptimizeCssAssets({})]
     },
 
     output: {
@@ -28,15 +28,15 @@ module.exports = {
             },
             {
                 test: /\.(sass|scss|css)$/,
-                use: [ MiniCssExtractCss.loader, 'css-loader', 'sass-loader' ]
-        
+                use: [MiniCssExtractCss.loader, 'css-loader', 'sass-loader']
+
             },
             {
                 test: /\.(svg|eot|woff|woff2|ttf)$/,
                 loader: 'file-loader',
                 options: {
                     outputPath: 'assets/fonts',
-                  },
+                },
             }
         ]
     },
@@ -58,9 +58,9 @@ module.exports = {
         new MiniCssExtractCss({
             filename: '[name].css'
         }),
-        // new WorkboxPlugin.GenerateSW({
-        //     clientsClaim: true,
-        //     skipWaiting: true
-        // })
+        new WorkboxPlugin.GenerateSW({
+            clientsClaim: true,
+            skipWaiting: true
+        })
     ]
 }

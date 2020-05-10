@@ -4,7 +4,7 @@ Build a travel app, combining all of your Front End skills into an amazing capst
 
 ## Run Project
 
-1. [Download](https://github.com/anexbmx/udacity-travel-app.git) or clone the project:
+1. [Download](https://github.com/anexbmx/udacity-travel-app/archive/master.zip) or clone the project:
 ```
 git clone https://github.com/anexbmx/udacity-travel-app.git 
 ```
