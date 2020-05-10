@@ -12,10 +12,6 @@ module.exports = {
         writeToDisk: true,
         port: 8081
     },
-    output: {
-        libraryTarget: "var",
-        library: "Client"
-    },
     module: {
         rules: [
             {

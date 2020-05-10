@@ -32,8 +32,3 @@ window.onclick = function (event) {
     }
 }
 
-export {
-    fetchGeonames,
-    primaryObject,
-}
-
