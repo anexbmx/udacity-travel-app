@@ -4,9 +4,9 @@ Build a travel app, combining all of your Front End skills into an amazing capst
 
 ## Run Project
 
-1. Download or clone the project:
+1. [Download](https://github.com/anexbmx/udacity-travel-app.git) or clone the project:
 ```
-git clone https://github.com/anexbmx/udacity-travel-app.git [folder_name]
+git clone https://github.com/anexbmx/udacity-travel-app.git 
 ```
 2. Install dependencies
 ```
@@ -44,28 +44,6 @@ npm run test
 4. Instead of just pulling a single day forecast, pull the forecast for multiple days.
 5. Incorporate icons into forecast.
 
-
-## Setup
-
-`cd` into project and run:
-- `npm install`
-- we need an API key & APP id, go To [here](https://developer.aylien.com/signup) Signing up will get you an API key and APP id
-- Fill the `.env` file with your API keys like this:
-```
-  API_ID=**************************
-  API_KEY=**************************
-
-```
-
-
-## Run Project
-* Dev mode
-  * ``` npm run build-dev ``` start webpack dev server at port 8081
-  * ``` npm run start ```  start a server at port 8080 , to use our api
-
-* Prod mode
-  * ``` npm run build-prod ```  to generates the dist files 
-  * ``` npm run start ```  start a server at port 8080
 
 ## Offline Functionality
 The project have service workers set up in webpack.
