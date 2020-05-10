@@ -1,0 +1,35 @@
+@import "./variables.scss";
+
+.media {
+    display: flex;
+
+    figure {
+        text-align: center;
+        margin: 0;
+
+        img {
+            border-radius: 10px;
+        }
+    }
+
+    .media-body {
+        ul {
+            list-style: none;
+            padding: 0 16px;
+            margin: 0;
+
+            li {
+                margin-bottom: 8px;
+
+                .fas {
+                    width: 25px;
+                    color: $main-color;
+                }
+
+                .key {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

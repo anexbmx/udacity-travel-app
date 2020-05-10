@@ -1,0 +1,50 @@
+.container-weather {
+    flex-grow: 1;
+    padding: 10px 15px;
+
+    .today-box {
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid #9e9e9e3d;
+        margin-bottom: 15px;
+        justify-content: space-between;
+        padding-bottom: 10px;
+
+        .temp {
+            font-size: 30px;
+        }
+
+        .high-temp {
+            color: #f44336;
+        }
+
+        .low-temp {
+            color: #ffc107;
+            margin-left: 6px;
+        }
+
+        .today-text {
+            text-align: right;
+            text-transform: capitalize;
+            margin: 0;
+        }
+    }
+
+    table {
+        width: 100%;
+        text-align: center;
+
+        thead {
+            color: #a5abaf;
+            font-size: 14px;
+
+            th {
+                font-weight: normal;
+            }
+        }
+
+        .temp {
+            color: #e91e63;
+        }
+    }
+}
